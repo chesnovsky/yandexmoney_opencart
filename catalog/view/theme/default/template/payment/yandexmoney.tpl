@@ -20,7 +20,7 @@
 		   <tr class="highlight">
 				<td><input type="radio" name="paymentType" value="GP" id="ym3"></td><td><label for="ym3"><?php echo $method_cash_text;?></label></td>
 			</tr>
-		   <?}?>
+		   <?php }?>
 		   <? if ($method_mobile ){?>
 		   <tr class="highlight">
 				<td><input type="radio" name="paymentType" value="MC" id="ym4"></td><td><label for="ym4"><?php echo $method_mobile_text;?></label></td>
@@ -29,6 +29,11 @@
 		   <? if ($method_wm ){?>
 		   <tr class="highlight">
 				<td><input type="radio" name="paymentType" value="WM" id="ym5"></td><td><label for="ym5"><?php echo $method_wm_text;?></label></td>
+			</tr>
+		   <?php } ?>
+		   <? if ($method_alfa ){?>
+		   <tr class="highlight">
+				<td><input type="radio" name="paymentType" value="AB" id="ym6"></td><td><label for="ym6"><?php echo $method_alfa_text;?></label></td>
 			</tr>
 		   <?php } ?>
 		   </tbody>
